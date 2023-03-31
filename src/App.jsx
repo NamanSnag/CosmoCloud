@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { UserModel } from './pages'
 
-import './App.css'
+import './app.scss'
 
 function App() {
 

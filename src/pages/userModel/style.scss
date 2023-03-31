@@ -1,3 +1,34 @@
-.user {
-    background-color: aqua;
+.user__container {
+    display: flex;
+    justify-content: center;
+    max-height: 80%;
+    max-width: 720px;
+    width: 60%;
+    padding: 12px 20px;
+    background-color: rgb(243, 243, 243);
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 10px;
+    
+    .user__fields {
+        padding: 12px 20px;
+        width: 100%;
+        background-color: rgb(237, 237, 237);
+
+        .user__head {
+            display: flex;
+            justify-content: space-between;
+            width: 90%;
+            margin: auto;
+            margin-bottom: 10px;
+
+            p{
+                color: rgb(79, 77, 77);
+            }
+
+            .user__plus {
+                background-color: white;
+                border-radius: 2rem;
+            }
+        }
+    }
 }
