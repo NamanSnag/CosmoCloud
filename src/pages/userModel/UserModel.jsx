@@ -11,8 +11,13 @@ const UserModel = () => {
   const handleAddField = () => {
     setSchema([
       ...schema,
-      { name: "Enter_Name", type: "string", value: false }
+      { name: "Enter_Name", type: "string", value: false, subDescription: [] }
     ])
+  }
+
+  // save data
+  const handleSave = () => {
+    console.log("User Model : ",schema)
   }
 
   return (
@@ -44,6 +49,7 @@ const UserModel = () => {
             )
           }
         </div>
+        <button className="save" onClick={handleSave}>Save</button>
       </div>
     </div>
   );

@@ -1,0 +1,14 @@
+.Nested__field__container {
+    display: flex;
+    align-items: center;
+    transition: 0.6s;
+    width: 100%;
+    justify-content: flex-end;
+    margin-top: -4px;
+    margin-bottom: 0px;
+
+    .field__container {
+        width: 90%;
+        box-shadow: -2px 0px 3px 0px #d1cfcf;
+    }
+}
